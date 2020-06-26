@@ -25,9 +25,9 @@ describe('Person age tests', () => {
 
   test('should convert Earth age to Jupiter age', () => {
     expect(person.convertAge("Jupiter")).toEqual(0.84)
-  })
+  });
 
   test('should calculate years left according to life expectancy on new planet', () => {
     expect(calcLifeExpt(person.age, "mercury")).toEqual(301.61);
-  })
+  });
 });

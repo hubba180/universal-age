@@ -24,7 +24,7 @@ _Enter text here_
 **Behavior** _The Program will convert the number of Earth years to Mars after clicking mars option_
 * Input: 'clicks Mars option' 10
 * Output: 18.7999999999997
-* Complete: Green, True
+* Complete: Blue, True
 
 **Behavior** _The program will conver the number of Earth years to Jupiter years after clikcing jupiter option_
 * Input: 'clicks Jupiter' 10
