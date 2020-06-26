@@ -19,16 +19,16 @@ _Enter text here_
 **Behavior** _the program will convert the number of Earth years to Venus years after the user is offered a choice to choose between Venus and Mercury conversions_
 * Input: 'clicks Venus option' 10
 * Output: 6.4
+* Complete: Blue, True
+
+**Behavior** _The Program will convert the number of Earth years to Mars after clicking mars option_
+* Input: 'clicks Mars option' 10
+* Output: 18.7999999999997
 * Complete: Green, True
 
-**Behavior** _Spec_
-* Input: 
-* Output: 
-* Complete:
-
-**Behavior** _Spec_
-* Input: 
-* Output: 
+**Behavior** _The program will conver the number of Earth years to Jupiter years after clikcing jupiter option_
+* Input: 'clicks Jupiter' 10
+* Output: 118
 * Complete:
 
 **Behavior** _Spec_
