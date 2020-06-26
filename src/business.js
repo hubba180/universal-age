@@ -3,7 +3,7 @@ export class Person {
     this.age = age;
   }
 
-  convertAge(planet, age) {
+  // convertAge(planet, age) {
 
-  }
+  // }
 }

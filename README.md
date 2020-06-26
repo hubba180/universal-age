@@ -9,7 +9,7 @@ _Enter text here_
 **Behavior** _The program will recieve a user's age and display to the html page_
 * Input: 6
 * Output: 6
-* Complete: red, false
+* Complete: Blue, True
 
 **Behavior** _The program will convert the number of Earth years to Mercury years_
 * Input: 10
