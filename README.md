@@ -33,18 +33,8 @@ _Enter text here_
 
 **Behavior** _The program will automatically calculate your life expectancy and convert that number to the planet selected and display years you have left_
 * Input: 'click Mercury' 10
-* Output: life expectancy on Mercury is 301.61, you have 291.61 years left
+* Output: Considering the life expectancy on Earth is 72.38 years, that means you'd live till about 301.61 which means you have only about 259.94 years left to live!
 * Complete: Green, false
-
-**Behavior** _Spec_
-* Input: 
-* Output: 
-* Complete:
-
-**Behavior** _Spec_
-* Input: 
-* Output: 
-* Complete:
 
 ## Setup/Installation Requirements
 

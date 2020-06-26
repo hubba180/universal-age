@@ -10,8 +10,15 @@ export class Person {
   }
 
   calcLifeExpt() {
-    let answer = (72.38 * this.convertAge())/this.age;
-    return Number(Math.round(answer +'e2') + 'e-2');
+    const planetAge = this.convertAge();
+    const lifeExpectancy = (72.38 * planetAge)/this.age;
+    const roundedAns = Number(Math.round(lifeExpectancy +'e2') + 'e-2');
+    const yearsLeft = roundedAns - planetAge;
+    if (roundedAns > planetAge) {
+      return `you'd live till about ${roundedAns} which means you have only about ${yearsLeft} years left to live!`;
+    } else {
+      return `everydays a gift for you since the life expectancy on ${this.planet} is ${roundedAns}`;
+    }
   }
 }
 

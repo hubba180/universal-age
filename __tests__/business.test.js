@@ -34,6 +34,6 @@ describe('Person age tests', () => {
   });
 
   test('should calculate life expectancy on new planet', () => {
-    expect(personMercury.calcLifeExpt()).toEqual(301.61);
+    expect(personMercury.calcLifeExpt()).toEqual("you'd live till about 301.61 which means you have only about 259.94 years left to live!");
   });
 });
