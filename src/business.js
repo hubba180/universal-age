@@ -5,7 +5,7 @@ export class Person {
 
   convertAge(planet) {
     if (planet === "mercury") {
-      // return this.age * 0.24;
+      return this.age * 0.24;
     }
   }
 }
