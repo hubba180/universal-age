@@ -19,7 +19,7 @@ _Enter text here_
 **Behavior** _the program will convert the number of Earth years to Venus years after the user is offered a choice to choose between Venus and Mercury conversions_
 * Input: 'clicks Venus option' 10
 * Output: 6.4
-* Complete: red, false
+* Complete: Green, True
 
 **Behavior** _Spec_
 * Input: 

@@ -8,9 +8,11 @@ $(document).ready(function() {
   $("#input").submit(function() {
     event.preventDefault();
     const age = $("#age").val();
+    const planet = $('input:radio[name=planet]:checked').val();
     person = new Person(age);
     $("#output").text(person.age);
-    $("#mercury-age").text(person.convertAge("mercury"));
+    $("#planet-choice").text(planet);
+    $("#new-age").text(person.convertAge(planet));
   });
 
 });
