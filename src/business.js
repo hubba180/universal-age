@@ -4,10 +4,10 @@ export class Person {
   }
 
   convertAge(planet) {
-    const newVar = planet.toLowerCase();
-    if (newVar === "mercury") {
+    const lowerCasePlanet = planet.toLowerCase();
+    if (lowerCasePlanet === "mercury") {
       return this.age * 0.24;
-    } else if (newVar === "venus") {
+    } else if (lowerCasePlanet === "venus") {
       return this.age * .64;
     }
   }
