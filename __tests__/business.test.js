@@ -20,6 +20,6 @@ describe('Person age tests', () => {
   });
 
   test('should convert Earth age into Mars age', () => {
-    expect(person.convertAge("Mars")).toEqual(18.8);
+    expect(person.convertAge("Mars")).toEqual(18.799999999999997);
   });
 });
