@@ -11,6 +11,6 @@ export class Person {
       return Number(Math.round((this.age * 0.64)+'e2')+'e-2');
     } else if (lowerCasePlanet === "mars") {
       return Number(Math.round((this.age / 1.88)+'e2')+'e-2');
-    }
+    } 
   }
 }
