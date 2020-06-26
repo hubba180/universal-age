@@ -12,11 +12,11 @@ describe('Person age tests', () => {
   });
 
   test('should convert Earth age into Mercury age', () => {
-    expect(person.convertAge("Mercury")).toEqual(2.4);
+    expect(person.convertAge("Mercury")).toEqual(41.67);
   });
 
   test('should return correct Earth age converted to Venus age', () => {
-    expect(person.convertAge("Venus")).toEqual(6.4);
+    expect(person.convertAge("Venus")).toEqual(15.63);
   });
 
   test('should convert Earth age into Mars age', () => {
@@ -25,5 +25,9 @@ describe('Person age tests', () => {
 
   test('should convert Earth age to Jupiter age', () => {
     expect(person.convertAge("Jupiter")).toEqual(0.84)
+  })
+
+  test('should calculate years left according to life expectancy on new planet', () => {
+    expect(calcLifeExpt(person.age, "mercury")).toEqual(301.61);
   })
 });

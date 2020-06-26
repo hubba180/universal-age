@@ -32,9 +32,9 @@ _Enter text here_
 * Complete: Blue, True
 
 **Behavior** _The program will automatically calculate your life expectancy and convert that number to the planet selected_
-* Input: 85
+* Input: 72.38
 * Output: 1
-* Complete:
+* Complete: Red, False
 
 **Behavior** _Spec_
 * Input: 
