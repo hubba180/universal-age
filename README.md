@@ -31,10 +31,10 @@ _Enter text here_
 * Output: 0.84
 * Complete: Blue, True
 
-**Behavior** _The program will automatically calculate your life expectancy and convert that number to the planet selected_
-* Input: 72.38
-* Output: 1
-* Complete: Red, False
+**Behavior** _The program will automatically calculate your life expectancy and convert that number to the planet selected and display years you have left_
+* Input: 'click Mercury' 10
+* Output: life expectancy on Mercury is 301.61, you have 291.61 years left
+* Complete: Green, false
 
 **Behavior** _Spec_
 * Input: 

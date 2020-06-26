@@ -1,38 +1,33 @@
 export class Person {
-  constructor(age) {
+  constructor(age, planet) {
     this.age = age;
+    this.planet = planet;
   }
 
-  convertAge(planet) {
-    const planetRatio = findPlanetYrRatio(planet.toLowerCase());
+  convertAge() {
+    const planetRatio = findPlanetYrRatio(this.planet);
     return Number(Math.round((this.age / planetRatio)+'e2')+'e-2');
-      
-      
-      
-    // if (lowerCasePlanet === "mercury") {
-    //   return Number(Math.round((this.age / 0.24)+'e2')+'e-2');
-    // } else if (lowerCasePlanet === "venus") {
-    //   return Number(Math.round((this.age / 0.64)+'e2')+'e-2');
-    // } else if (lowerCasePlanet === "mars") {
-    //   return Number(Math.round((this.age / 1.88)+'e2')+'e-2');
-    // } else if (lowerCasePlanet === "jupiter") {
-    //   return Number(Math.round((this.age / 11.86)+'e2')+'e-2');
-    // }
+  }
+
+  calcLifeExpt() {
+    let answer = (72.38 * this.convertAge())/this.age;
+    return Number(Math.round(answer +'e2') + 'e-2');
   }
 }
+
+
+// 10/72.38 = planet age/x
 
 function findPlanetYrRatio(planet) {
-  if (planet === "mercury") {
-    return 0.24
-  } else if (planet === "venus") {
-    return 0.64
-  } else if (planet === "mars") {
-    return 1.88
-  } else if (planet === "jupiter") {
-    return 11.86
+  const planetMod = planet.toLowerCase();
+  if (planetMod === "mercury") {
+    return 0.24;
+  } else if (planetMod === "venus") {
+    return 0.64;
+  } else if (planetMod === "mars") {
+    return 1.88;
+  } else if (planetMod === "jupiter") {
+    return 11.86;
   }
 }
 
-// function calcLifeExp(age, planet) {
-  
-// }

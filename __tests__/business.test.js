@@ -1,33 +1,39 @@
 import {Person} from '../src/business.js';
 
 describe('Person age tests', () => {
-  let person;
+  let personMercury;
+  let personVenus;
+  let personMars;
+  let personJupiter;
 
   beforeEach(() => {
-    person = new Person(10);
+    personMercury = new Person(10, "Mercury");
+    personVenus = new Person(10, "Venus");
+    personMars = new Person(10, "Mars")
+    personJupiter = new Person(10, "Jupiter")
   })
 
   test('should correctly save age', () => {
-    expect(person.age).toEqual(10);
+    expect(personMercury.age).toEqual(10);
   });
 
   test('should convert Earth age into Mercury age', () => {
-    expect(person.convertAge("Mercury")).toEqual(41.67);
+    expect(personMercury.convertAge()).toEqual(41.67);
   });
 
   test('should return correct Earth age converted to Venus age', () => {
-    expect(person.convertAge("Venus")).toEqual(15.63);
+    expect(personVenus.convertAge()).toEqual(15.63);
   });
 
   test('should convert Earth age into Mars age', () => {
-    expect(person.convertAge("Mars")).toEqual(5.32);
+    expect(personMars.convertAge()).toEqual(5.32);
   });
 
   test('should convert Earth age to Jupiter age', () => {
-    expect(person.convertAge("Jupiter")).toEqual(0.84)
+    expect(personJupiter.convertAge()).toEqual(0.84)
   });
 
-  test('should calculate years left according to life expectancy on new planet', () => {
-    expect(calcLifeExpt(person.age, "mercury")).toEqual(301.61);
+  test('should calculate life expectancy on new planet', () => {
+    expect(personMercury.calcLifeExpt()).toEqual(301.61);
   });
 });
