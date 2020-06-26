@@ -10,4 +10,8 @@ describe('Person age tests', () => {
   test('should correctly save age', () => {
     expect(person.age).toEqual(10);
   });
+
+  test('should convert Earth age into Mercury age', () => {
+    expect(person.convertAge("mercury")).toEqual(2.4);
+  });
 });

@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import {Person} from './business.js'
+import {Person} from './business.js';
 import 'bootstrap';
 import './styles.css';
 
