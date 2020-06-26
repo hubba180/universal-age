@@ -18,6 +18,7 @@ $(document).ready(function() {
       $("#planet-choice").text(planet);
       $("#new-age").text(`Your age on ${planet} is: ${person.convertAge()}`);
       $("#life-expectancy").text(`Considering the life expectancy on Earth is 72.38 years, that means ${person.calcLifeExpt()}`);
+      $("#display").fadeIn();
     }
   });
 

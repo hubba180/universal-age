@@ -7,31 +7,34 @@
 </head>
 <body>
   <div class="jumbotron">
-    <h1>Calculate Your Age Anywhere You Choose!</h1>
+    <img src="../assets/cropped.jpg" alt="">
+    <h1>Calculate Your Age Across the Galaxy!</h1>
   </div>
   <div id="background">
-    <form id="input">
-      <label for="age">Please enter your Earth age: </label>
-      <input type="number" id="age"><br><br>
-      <label>
-        <input type="radio" name="planet" value="Mercury"> Mercury
-      </label>
-      <label>
-        <input type="radio" name="planet" value="Mars"> Mars
-      </label>
-      <label>
-        <input type="radio" name="planet" value="Jupiter"> Jupiter
-      </label>
-      <label>
-        <input type="radio" name="planet" value="Venus"> Venus
-      </label><br><br>
-      <button type="submit" id="button-submit">Submit</button>
-    </form>
-    <br>
-    <div id="display">
-      <p>Your Earth age is: <span id="output"></span></p>
-      <p><span id="new-age"></span></p>
-      <p><span id="life-expectancy"></span></p>
+    <div id="contents" class="container">
+      <form id="input">
+        <label for="age">Please enter your Earth age: </label>
+        <input type="number" id="age" class="form-control"><br><br>
+        <label class="form-check-label">
+          <input type="radio" name="planet" value="Mercury" class="form-check-input"> Mercury
+        </label><br>
+        <label class="form-check-label">
+          <input type="radio" name="planet" value="Mars" class="form-check-input"> Mars
+        </label><br>
+        <label class="form-check-label">
+          <input type="radio" name="planet" value="Jupiter" class="form-check-input"> Jupiter
+        </label><br>
+        <label class="form-check-label">
+          <input type="radio" name="planet" value="Venus" class="form-check-input"> Venus
+        </label><br><br>
+        <button type="submit" id="button-submit" class="btn btn-secondary">Submit</button>
+      </form>
+      <br>
+      <div id="display" class="container">
+        <p>Your Earth age is: <span id="output"></span></p>
+        <p><span id="new-age"></span></p>
+        <p><span id="life-expectancy"></span></p>
+      </div>
     </div>
   </div>
 </body>
