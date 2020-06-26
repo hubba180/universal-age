@@ -12,7 +12,7 @@ $(document).ready(function() {
     person = new Person(age);
     $("#output").text(person.age);
     $("#planet-choice").text(planet);
-    $("#new-age").text(person.convertAge(planet));
+    $("#new-age").text(`Your age on ${planet} is: ${person.convertAge(planet)}`);
   });
 
 });
