@@ -28,7 +28,17 @@ _Enter text here_
 
 **Behavior** _The program will conver the number of Earth years to Jupiter years after clikcing jupiter option_
 * Input: 'clicks Jupiter' 10
-* Output: 118
+* Output: 0.84
+* Complete: Blue, True
+
+**Behavior** _The program will automatically calculate your life expectancy and convert that number to the planet selected_
+* Input: 85
+* Output: 1
+* Complete:
+
+**Behavior** _Spec_
+* Input: 
+* Output: 
 * Complete:
 
 **Behavior** _Spec_
@@ -45,7 +55,7 @@ _Enter text here_
 * _Optional: code editor - suggested VSCode-_
 
 #### Install
-* _Navigate to my github repository at: https://github.com/repo-name-here_
+* _Navigate to my github repository at: https://github.com/universal-age_
 * _Click the green clone or download button and copy the ".git" link_
 * _On your homescreen open up your preferred terminal - GitBash recommended - and clone the file to your desktop. If your using GitBash the command is $ git clone {.git link}_
 * _Navigate your terminal into the root directory of the project and run the command $ npm install_

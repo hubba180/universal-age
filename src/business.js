@@ -16,3 +16,7 @@ export class Person {
     }
   }
 }
+
+function calcLifeExp(age) {
+  
+}
