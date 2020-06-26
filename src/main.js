@@ -10,6 +10,7 @@ $(document).ready(function() {
     const age = $("#age").val();
     person = new Person(age);
     $("#output").text(person.age);
+    $("#mercury-age").text(person.convertAge("mercury"));
   });
 
 });
