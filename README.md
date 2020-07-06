@@ -2,7 +2,7 @@
 #### _Calculate your age and life expectancy rate on any planet you choose! 07/06/2020_
 #### By _**Kyle Hubbard**_
 ## Description
-_Time is different on other planets, so how would that change our life if we lived on them? End users of this product may enter an age and select a planet to which they'd like to convert. The program will then run a calculation and display the user's new age and life expectancy rate on for the new planet._
+_Time is different on other planets, so how would that change our life if we lived on them? End users of this product may enter an age and select a planet to which they'd like to convert to. The program will then run a calculation and display the user's new age and life expectancy rate for the new planet._
 
 ## Specifications
 
@@ -16,17 +16,17 @@ _Time is different on other planets, so how would that change our life if we liv
 * Output: 2.4
 * Complete: Blue, True
 
-**Behavior** _the program will convert the number of Earth years to Venus years after the user is offered a choice to choose between Venus and Mercury conversions_
+**Behavior** _the program will convert the number of Earth years to Venus years_
 * Input: 10 
 * Output: 6.4
 * Complete: Blue, True
 
-**Behavior** _The Program will convert the number of Earth years to Mars after clicking mars option_
+**Behavior** _The Program will convert the number of Earth years to Mars_
 * Input: 10
 * Output: 18.7999999999997
 * Complete: Blue, True
 
-**Behavior** _The program will conver the number of Earth years to Jupiter years after clikcing jupiter option_
+**Behavior** _The program will conver the number of Earth years to Jupiter years_
 * Input: 10
 * Output: 0.84
 * Complete: Blue, True
