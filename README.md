@@ -26,7 +26,7 @@ _Time is different on other planets, so how would that change our life if we liv
 * Output: 18.7999999999997
 * Complete: Blue, True
 
-**Behavior** _The program will conver the number of Earth years to Jupiter years_
+**Behavior** _The program will convert the number of Earth years to Jupiter years_
 * Input: 10
 * Output: 0.84
 * Complete: Blue, True
