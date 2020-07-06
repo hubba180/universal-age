@@ -1,8 +1,8 @@
-# _Title_
-#### _Brief Desc., Date_
+# _Universal Age Calculator_
+#### _Calculate your age and life expectancy rate on any planet you choose! 07/06/2020_
 #### By _**Kyle Hubbard**_
 ## Description
-_Enter text here_
+_Time is different on other planets, so how would that change our life if we lived on them? End users of this product may enter an age and select a planet to which they'd like to convert. The program will then run a calculation and display the user's new age and life expectancy rate on for the new planet._
 
 ## Specifications
 
