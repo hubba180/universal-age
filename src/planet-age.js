@@ -17,7 +17,7 @@ export class Person {
     if (roundedAns > planetAge) {
       return `you'd live till about ${roundedAns} which means you have only about ${yearsLeft} years left to live!`;
     } else {
-      return `everydays a gift of you since the life expectancy on ${this.planet} is ${roundedAns}`;
+      return `everydays a gift for you since the life expectancy on ${this.planet} is ${roundedAns}`;
     }
   }
 }

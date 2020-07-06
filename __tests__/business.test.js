@@ -40,6 +40,6 @@ describe('Person age tests', () => {
   });
 
   test('should recognize when age exceeds life expectancy', () => {
-    expect(elderPersonMercury.calcLifeExpt()).toEqual("Considering the life expectancy on Earth is 72.38 years, that means everydays a gift for you since the life expectancy on Mercury is 301.58");
+    expect(elderPersonMercury.calcLifeExpt()).toEqual("everydays a gift for you since the life expectancy on Mercury is 301.58");
   });
 });
