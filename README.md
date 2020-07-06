@@ -17,24 +17,28 @@ _Enter text here_
 * Complete: Blue, True
 
 **Behavior** _the program will convert the number of Earth years to Venus years after the user is offered a choice to choose between Venus and Mercury conversions_
-* Input: 'clicks Venus option' 10
+* Input: 10 
 * Output: 6.4
 * Complete: Blue, True
 
 **Behavior** _The Program will convert the number of Earth years to Mars after clicking mars option_
-* Input: 'clicks Mars option' 10
+* Input: 10
 * Output: 18.7999999999997
 * Complete: Blue, True
 
 **Behavior** _The program will conver the number of Earth years to Jupiter years after clikcing jupiter option_
-* Input: 'clicks Jupiter' 10
+* Input: 10
 * Output: 0.84
 * Complete: Blue, True
 
 **Behavior** _The program will automatically calculate your life expectancy and convert that number to the planet selected and display years you have left_
-* Input: 'click Mercury' 10
+* Input: 10
 * Output: Considering the life expectancy on Earth is 72.38 years, that means you'd live till about 301.61 which means you have only about 259.94 years left to live!
-* Complete: Green, false
+* Complete: Green, True
+
+**Behavior** _The program will recognize when a person's age on the new planet is greater than the life expectancy rate_
+* Input: 80
+* Output: Considering the life expectancy on Earth is 72.38 years, that means everydays a gift for you since the life expectancy on Mercury is 301.58
 
 ## Setup/Installation Requirements
 

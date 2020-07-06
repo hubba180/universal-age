@@ -1,4 +1,4 @@
-import {Person} from '../src/business.js';
+import {Person} from '../src/planet-age.js';
 
 describe('Person age tests', () => {
   let personMercury;

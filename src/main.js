@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import {Person} from './business.js';
+import {Person} from './planet-age.js';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
